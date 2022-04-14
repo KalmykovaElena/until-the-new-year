@@ -1,0 +1,59 @@
+body{
+    background-image: url(./img/1289_1920s1080-.jpg);
+    background-size: cover;
+    background-repeat: no-repeat ;
+    background-attachment:fixed    ;
+    background-color: rgb(55, 55, 212);
+    margin: 0 auto;
+}
+.image-fone{
+    max-width:1024px;
+    height: 100%;
+   
+}
+.textContent{
+    box-sizing: border-box;
+    padding-top: 58vh;
+    padding-left: 20px;
+    font-size: 7vh;
+    color:azure;
+    font-style: italic;
+    font-weight: bold;
+    text-shadow: 4vh -3vh 2px rgb(0,0,0,.8), 0 0 1em rgb(214, 223, 236)
+}
+.timer-wraper{
+    display:flex;
+    box-sizing: border-box;
+    padding-left: 5vh;
+    padding-top: 5vh;
+    width: 80%;
+    justify-content: space-around;
+}
+.timer-item{
+    width:21vh;
+    height:19vh;
+    text-align: center;
+    border:1vh solid rgb(255, 255, 255);
+    box-shadow: 0 0 55px;
+    border-radius: 10px 10px 0 0;
+    color:white;
+    font-size: 14vh;
+    font-weight: bold;
+    text-shadow:    1px 1px 1px silver,-1px 1px 1px silver;
+    transition-duration: 1s;
+	transition-property: all;
+}
+.timer-item:hover {
+    width:23vh;
+    height:21vh;
+    font-size:17vh;
+}
+.timer-text{
+    background-color: rgb(255, 255, 255);
+    border-radius: 0 0 10px 10px;
+    font-size: 5vh;
+    font-style: italic;
+    font-weight: bolder;
+    text-align: center;
+    color:rgb(8, 17, 104);
+}
